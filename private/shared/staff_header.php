@@ -12,7 +12,7 @@ if (!isset($page_title)) { $page_title = 'Staff Area'; }
 
   <body>
     <header>
-      <h1>JAB Staff Area - <?php echo $page_title; ?></h1>
+      <h1>JAB Staff Area - <?php echo h($page_title); ?></h1>
     </header>
     <navigation>
       <ul>
