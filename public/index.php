@@ -2,11 +2,11 @@
 
 <html lang="en">
   <head>
-    <title>Globe Bank</title>
+    <title>Joseph A's Banks</title>
     <meta charset="utf-8">
   </head>
 
   <body>
-  <h1>Globe Bank: Coming Soon</h1>
+  <h1>Joseph A's Banks: Coming Soon</h1>
   </body>
 </html>
