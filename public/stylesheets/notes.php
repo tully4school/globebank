@@ -17,9 +17,9 @@ $page = $_GET['page'] ?? '1'; -->
 
 Add a form under /staff/pages/new.php - complete
 
-Add form for  /staff/pages/edit.php
+Add form for  /staff/pages/edit.php - complete
 
-Add links to both pages
+Add links to both pages - complete
 
 **Editing requires a page ID**
 
