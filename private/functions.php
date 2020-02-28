@@ -35,7 +35,7 @@ function redirect_to($location) {
 //to see whether or not a form has been submitted
 
 function is_post_request() {
-    return $_SERVER['REQUEST_METHOD'] == 'POST'
+    return $_SERVER['REQUEST_METHOD'] == 'POST';
 }
 
 function is_get_request() {
