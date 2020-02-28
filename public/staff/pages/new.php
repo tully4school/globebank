@@ -1,6 +1,7 @@
 <?php 
 
 require_once('../../../private/initialize.php'); 
+
 $test = $_GET['test'] ?? '';
 
 if($test == '404') {
@@ -51,7 +52,7 @@ if($test == '404') {
         </form>
 
     </div>
-    
+
 </div>
 
 <?php include(SHARED_PATH . '/staff_footer.php'); ?>
