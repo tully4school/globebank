@@ -24,9 +24,9 @@ echo "Menu Name: " . $menu_name . "<br />";
 echo "Position: " . $position . "<br />";
 echo "Visible: " . $visible . "<br />";
 } else {
-    // redirect_to(url_for('/staff/subjects/new.php'));
+// redirect_to(url_for('/staff/subjects/new.php'));
 }
-?>  post
+?>  
 
 <?php $page_title = 'Edit Subject'; ?>
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
@@ -42,7 +42,9 @@ echo "Visible: " . $visible . "<br />";
       <dl>
         <dt>Menu Name</dt>
         
-        <dd><input type="text" name="menu_name" value="<?php echo $menu_name; ?>" /></dd>
+        <dd>
+          <input type="text" name="menu_name" value="<?php echo $menu_name; ?>" />
+        </dd>
       </dl>
       <dl>
         <dt>Position</dt>

@@ -15,7 +15,7 @@ $page = $_GET['page'] ?? '1'; -->
 
 <!--- NOTES FOR CHALLENGE ASSIGNMENT
 
-Add a form under /staff/pages/new.php
+Add a form under /staff/pages/new.php - complete
 
 Add form for  /staff/pages/edit.php
 
