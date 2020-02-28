@@ -7,6 +7,9 @@ if(!isset($_GET['id'])) {
 }
 
 $id = $_GET['id'];
+$menu_name = '';
+$position = '';
+$visible = '';
 
 if(is_post_request()) {
 
@@ -23,7 +26,7 @@ echo "Visible: " . $visible . "<br />";
 } else {
     // redirect_to(url_for('/staff/subjects/new.php'));
 }
-?>
+?>  post
 
 <?php $page_title = 'Edit Subject'; ?>
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
@@ -38,7 +41,8 @@ echo "Visible: " . $visible . "<br />";
     <form action="<?php echo url_for('/staff/subjects/edit.php?id=' . h(u($id))); ?>" method="post">
       <dl>
         <dt>Menu Name</dt>
-        <dd><input type="text" name="menu_name" value="" /></dd>
+        
+        <dd><input type="text" name="menu_name" value="<?php echo $menu_name; ?>" /></dd>
       </dl>
       <dl>
         <dt>Position</dt>
