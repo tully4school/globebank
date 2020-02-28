@@ -17,8 +17,9 @@
     <h1>Pages</h1>
 
     <div class="actions">
-      <a href="!#" class="action">Create New Page</a>
+      <a href="<?php echo url_for('/staff/pages/new.php')?>" class="action">Create New Page</a>
     </div>
+    
 
     <table class="list">
       <tr>
